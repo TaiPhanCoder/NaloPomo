@@ -20,21 +20,33 @@
 
 .menu {
   display: flex;
-  list-style: none;
-  gap: 2rem;
+  gap: 1rem;
   margin: 0;
   padding: 0;
 }
 
+.menu button {
+    background-color: #42a5f5;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu button:hover {
+    background-color: #1976d2;
+}
+
 .menu a {
   text-decoration: none;
-  color: #333;
+  color: rgba(255, 255, 255, 0.85);
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .menu a:hover {
-  color: #007bff;
+  color: #ffffff;
 }
 
 .logo a {
