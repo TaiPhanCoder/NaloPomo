@@ -1,0 +1,51 @@
+.header {
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color: #007bff;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.appName {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  color: #1976d2;
+}
